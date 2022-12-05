@@ -1,0 +1,10 @@
+{
+   "version": 2,
+   "name": "Yashaswini",
+   "builds": [
+      { "src": "_app.js", "use": "@vercel/node" }
+   ],
+   "routes": [
+      { "src": "/(.*)", "dest": "/pages/_app.js" }
+   ]
+}
